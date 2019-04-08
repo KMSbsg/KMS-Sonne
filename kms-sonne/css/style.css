@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+html, body, #map {
+  height: 100%;
+  width: 100vw;
+}
+
+.blockCSSClass {
+  padding: 1px;
+  background: white;
+  border: 0px;
+  color: #800000;
+  font-weight: bold;
+  font-size: 10px;
+  box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+.leaflet-tooltip-left.blockCSSClass::before {
+  border-left-color: transparent;
+}
+.leaflet-tooltip-right.blockCSSClass::before {
+  border-right-color: transparent;
+}
